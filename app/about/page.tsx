@@ -12,7 +12,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="bg-white pt-20 pb-24 md:pt-28 md:pb-32">
         <div className="container-site max-w-4xl">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-5">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-5">
             {c.hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-6xl font-black text-navy leading-tight mb-6">
@@ -27,7 +27,7 @@ export default function AboutPage() {
       {/* Mission */}
       <section className="py-20 md:py-24 bg-gray-50">
         <div className="container-site">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-3">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-3">
             {c.mission.eyebrow}
           </p>
           <div className="grid md:grid-cols-2 gap-12 mt-6">
@@ -48,7 +48,7 @@ export default function AboutPage() {
       {/* Principles */}
       <section className="py-20 md:py-24 bg-white">
         <div className="container-site">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-3">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-3">
             {c.principles.eyebrow}
           </p>
           <h2 className="text-3xl font-black text-navy mb-12 leading-tight">
@@ -77,7 +77,7 @@ export default function AboutPage() {
           <p className="text-white/60 mb-8 max-w-md mx-auto">{c.cta_banner.subtext}</p>
           <a
             href={c.cta_banner.cta.href}
-            className="inline-block bg-blue text-white text-sm font-bold px-8 py-3.5 rounded-full hover:bg-blue-dark transition-colors"
+            className="inline-block bg-green text-white text-sm font-bold px-8 py-3.5 rounded-full hover:bg-green-dark transition-colors"
           >
             {c.cta_banner.cta.label}
           </a>

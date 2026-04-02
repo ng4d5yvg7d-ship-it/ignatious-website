@@ -12,7 +12,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="bg-white pt-20 pb-24 md:pt-28 md:pb-32">
         <div className="container-site max-w-4xl">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-5">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-5">
             {c.hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-6xl font-black text-navy leading-tight mb-6">
@@ -38,7 +38,7 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-blue transition-colors"
+                  className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-green transition-colors"
                 />
               </div>
               <div>
@@ -47,7 +47,7 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-blue transition-colors"
+                  className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-green transition-colors"
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function ContactPage() {
               </label>
               <input
                 type="email"
-                className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-blue transition-colors"
+                className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-green transition-colors"
               />
             </div>
             <div>
@@ -66,14 +66,14 @@ export default function ContactPage() {
               </label>
               <input
                 type="tel"
-                className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-blue transition-colors"
+                className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-green transition-colors"
               />
             </div>
             <div>
               <label className="block text-xs font-semibold text-navy mb-2">
                 {c.form.fields.enquiry_type}
               </label>
-              <select className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-blue transition-colors">
+              <select className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-green transition-colors">
                 <option value="">Select...</option>
                 {c.form.fields.enquiry_types.map((type) => (
                   <option key={type} value={type}>{type}</option>
@@ -86,12 +86,12 @@ export default function ContactPage() {
               </label>
               <textarea
                 rows={5}
-                className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-blue transition-colors resize-none"
+                className="w-full border border-gray-200 bg-white px-4 py-3 text-sm text-navy rounded-lg focus:outline-none focus:border-green transition-colors resize-none"
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-blue text-white text-sm font-bold py-3.5 rounded-full hover:bg-blue-dark transition-colors"
+              className="w-full bg-green text-white text-sm font-bold py-3.5 rounded-full hover:bg-green-dark transition-colors"
             >
               {c.form.fields.submit}
             </button>

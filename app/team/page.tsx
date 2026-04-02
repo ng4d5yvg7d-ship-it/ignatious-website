@@ -12,7 +12,7 @@ export default function TeamPage() {
       {/* Hero */}
       <section className="bg-white pt-20 pb-24 md:pt-28 md:pb-32">
         <div className="container-site max-w-4xl">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-5">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-5">
             {c.hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-6xl font-black text-navy leading-tight mb-6">
@@ -27,7 +27,7 @@ export default function TeamPage() {
       {/* Senior Partners */}
       <section className="py-20 md:py-24 bg-gray-50">
         <div className="container-site">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-3">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-3">
             Senior Partners
           </p>
           <div className="space-y-8 mt-8">
@@ -38,14 +38,14 @@ export default function TeamPage() {
               >
                 {/* Photo placeholder */}
                 <div className="flex flex-col gap-4">
-                  <div className="w-20 h-20 rounded-full bg-blue-light flex items-center justify-center">
-                    <span className="text-blue text-2xl font-black">
+                  <div className="w-20 h-20 rounded-full bg-green-light flex items-center justify-center">
+                    <span className="text-green text-2xl font-black">
                       {member.name.split(" ").map((n) => n[0]).join("")}
                     </span>
                   </div>
                   <div>
                     <h2 className="text-xl font-black text-navy">{member.name}</h2>
-                    <p className="text-blue text-sm font-semibold mt-1">{member.title}</p>
+                    <p className="text-green text-sm font-semibold mt-1">{member.title}</p>
                   </div>
                 </div>
                 <div className="md:col-span-2">
@@ -65,7 +65,7 @@ export default function TeamPage() {
       {/* Junior Partners */}
       <section className="py-16 bg-white">
         <div className="container-site">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-6">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-6">
             Junior Partners
           </p>
           <div className="flex flex-wrap gap-3">
@@ -90,7 +90,7 @@ export default function TeamPage() {
           <p className="text-white/60 mb-8 max-w-md mx-auto">{c.cta_banner.subtext}</p>
           <a
             href={c.cta_banner.cta.href}
-            className="inline-block bg-blue text-white text-sm font-bold px-8 py-3.5 rounded-full hover:bg-blue-dark transition-colors"
+            className="inline-block bg-green text-white text-sm font-bold px-8 py-3.5 rounded-full hover:bg-green-dark transition-colors"
           >
             {c.cta_banner.cta.label}
           </a>

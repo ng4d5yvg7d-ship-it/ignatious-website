@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -17,14 +18,17 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <header className="bg-navy sticky top-0 z-50">
       <div className="container-site flex items-center justify-between h-16">
-        {/* Wordmark */}
-        <Link
-          href="/"
-          className="text-navy font-black text-xl tracking-tight hover:text-blue transition-colors"
-        >
-          Ignatious
+        {/* Logo */}
+        <Link href="/" aria-label="Ignatious home">
+          <Image
+            src="/images/logo.svg"
+            alt="Ignatious"
+            width={108}
+            height={22}
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -36,7 +40,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 className={`text-sm font-medium transition-colors ${
-                  isActive ? "text-blue" : "text-gray-700 hover:text-navy"
+                  isActive ? "text-green" : "text-white/70 hover:text-white"
                 }`}
               >
                 {link.label}
@@ -49,12 +53,12 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link
             href="/contact"
-            className="hidden md:inline-block bg-blue text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-blue-dark transition-colors"
+            className="hidden md:inline-block bg-green text-navy text-sm font-bold px-5 py-2 rounded-full hover:bg-green-dark hover:text-white transition-colors"
           >
             Let&apos;s Connect
           </Link>
           <button
-            className="md:hidden text-gray-700 hover:text-navy p-2"
+            className="md:hidden text-white/70 hover:text-white p-2"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle navigation"
           >
@@ -73,7 +77,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
+        <div className="md:hidden bg-navy border-t border-white/10">
           <nav className="container-site py-5 flex flex-col gap-4">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
@@ -83,7 +87,7 @@ export default function Navbar() {
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
                   className={`text-sm font-medium py-1 transition-colors ${
-                    isActive ? "text-blue" : "text-gray-700 hover:text-navy"
+                    isActive ? "text-green" : "text-white/70 hover:text-white"
                   }`}
                 >
                   {link.label}
@@ -93,7 +97,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="inline-block bg-blue text-white text-sm font-semibold px-5 py-2.5 rounded-full text-center hover:bg-blue-dark transition-colors mt-2"
+              className="inline-block bg-green text-navy text-sm font-bold px-5 py-2.5 rounded-full text-center hover:bg-green-dark hover:text-white transition-colors mt-2"
             >
               Let&apos;s Connect
             </Link>

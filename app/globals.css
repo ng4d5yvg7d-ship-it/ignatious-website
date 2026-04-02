@@ -4,9 +4,9 @@
   /* ── Brand Colors ── */
   --color-navy:        #0D1B2A;
   --color-navy-light:  #1A2D44;
-  --color-blue:        #4D65FF;
-  --color-blue-dark:   #3A50E0;
-  --color-blue-light:  #EEF0FF;
+  --color-green:       #00CC4A;
+  --color-green-dark:  #00802E;
+  --color-green-light: #E6F9ED;
   --color-gray-50:     #F8F9FA;
   --color-gray-100:    #F1F3F5;
   --color-gray-200:    #E5E7EB;
@@ -15,9 +15,6 @@
 
   /* ── Typography ── */
   --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
-
-  /* ── Border Radius ── */
-  --radius-card: 0.75rem;
 }
 
 /* ── Base Resets ── */

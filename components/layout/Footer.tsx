@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const footerLinks = [
@@ -16,11 +17,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
           {/* Brand */}
           <div>
-            <Link
-              href="/"
-              className="text-white font-black text-2xl tracking-tight hover:text-blue transition-colors"
-            >
-              Ignatious
+            <Link href="/" aria-label="Ignatious home">
+              <Image
+                src="/images/logo.svg"
+                alt="Ignatious"
+                width={108}
+                height={22}
+              />
             </Link>
             <p className="mt-4 text-sm text-white/60 leading-relaxed max-w-xs">
               Delivering extraordinary M&A and private capital outcomes for world-changing technology companies.
@@ -71,6 +74,8 @@ export default function Footer() {
             <div className="flex flex-col gap-2.5">
               <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">Terms of Use</a>
+              <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">Finalis Privacy Policy</a>
+              <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">Finalis Business Continuity</a>
               <a href="https://finra.org/investors/have-problem/investor-complaint-center/brokercheck" target="_blank" rel="noopener noreferrer" className="text-sm text-white/60 hover:text-white transition-colors">FINRA BrokerCheck</a>
             </div>
           </div>

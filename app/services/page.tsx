@@ -24,7 +24,7 @@ export default function ServicesPage() {
       {/* Hero */}
       <section className="bg-white pt-20 pb-24 md:pt-28 md:pb-32">
         <div className="container-site max-w-4xl">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-5">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-5">
             {c.hero.eyebrow}
           </p>
           <h1 className="text-4xl md:text-6xl font-black text-navy leading-tight mb-6 whitespace-pre-line">
@@ -41,7 +41,7 @@ export default function ServicesPage() {
         <div className="container-site">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-3">
+              <p className="text-xs font-semibold tracking-widest uppercase text-green mb-3">
                 01
               </p>
               <h2 className="text-3xl md:text-4xl font-black text-navy mb-4 leading-tight">
@@ -58,7 +58,7 @@ export default function ServicesPage() {
                   key={outcome.label}
                   className="bg-white border border-gray-200 rounded-xl px-6 py-5 flex gap-4 items-start"
                 >
-                  <span className="text-blue font-bold text-lg mt-0.5">→</span>
+                  <span className="text-green font-bold text-lg mt-0.5">→</span>
                   <div>
                     <p className="font-bold text-navy text-sm">{outcome.label}</p>
                     <p className="text-gray-500 text-sm mt-1 leading-relaxed">
@@ -77,7 +77,7 @@ export default function ServicesPage() {
         <div className="container-site">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-3">
+              <p className="text-xs font-semibold tracking-widest uppercase text-green mb-3">
                 02
               </p>
               <h2 className="text-3xl md:text-4xl font-black text-navy mb-4 leading-tight">
@@ -97,7 +97,7 @@ export default function ServicesPage() {
                   {capitalService.funding_sources.map((source) => (
                     <span
                       key={source}
-                      className="bg-blue-light text-blue text-xs font-semibold px-3 py-1.5 rounded-full"
+                      className="bg-green-light text-green text-xs font-semibold px-3 py-1.5 rounded-full"
                     >
                       {source}
                     </span>
@@ -124,7 +124,7 @@ export default function ServicesPage() {
       {/* Sectors */}
       <section className="py-20 md:py-24 bg-navy">
         <div className="container-site">
-          <p className="text-xs font-semibold tracking-widest uppercase text-blue mb-3">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-3">
             {c.sectors.eyebrow}
           </p>
           <h2 className="text-3xl font-black text-white mb-12 leading-tight">
@@ -145,7 +145,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-blue">
+      <section className="py-20 bg-green">
         <div className="container-site text-center">
           <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
             {c.cta_banner.headline}
@@ -153,7 +153,7 @@ export default function ServicesPage() {
           <p className="text-white/80 mb-8 max-w-md mx-auto">{c.cta_banner.subtext}</p>
           <a
             href={c.cta_banner.cta.href}
-            className="inline-block bg-white text-blue text-sm font-bold px-8 py-3.5 rounded-full hover:bg-gray-100 transition-colors"
+            className="inline-block bg-white text-green text-sm font-bold px-8 py-3.5 rounded-full hover:bg-gray-100 transition-colors"
           >
             {c.cta_banner.cta.label}
           </a>
