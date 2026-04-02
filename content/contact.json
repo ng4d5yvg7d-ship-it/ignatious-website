@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "eyebrow": "Let's Connect",
+    "headline": "Start a Confidential Conversation",
+    "subtext": "If you are a founder, CEO, VC/Investor, Board Member, or Corporate Acquirer looking to achieve extraordinary M&A and capital raising outcomes, we would love to hear from you."
+  },
+  "form": {
+    "headline": "Get in Touch",
+    "subtext": "We aim to respond within one business day. All enquiries are handled with complete discretion.",
+    "fields": {
+      "name": "Full Name",
+      "company": "Company",
+      "email": "Email Address",
+      "phone": "Phone (optional)",
+      "enquiry_type": "Nature of Enquiry",
+      "enquiry_types": [
+        "Sell-Side M&A",
+        "Buy-Side M&A",
+        "Private Capital Raise",
+        "Capital Structure Advisory",
+        "General Enquiry"
+      ],
+      "message": "Tell us about your situation",
+      "submit": "Send Message"
+    }
+  },
+  "disclaimer": "Securities are offered through Finalis Securities LLC Member FINRA / SIPC. Ignatious is not a registered broker-dealer, and Finalis Securities LLC and Ignatious are separate, unaffiliated entities."
+}

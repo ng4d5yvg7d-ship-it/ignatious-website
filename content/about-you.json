@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "eyebrow": "About You",
+    "headline": "You started with nothing but conviction",
+    "subtext": "You earned your first hire, your first customer, and your first investor — and built something that now matters. If you are here, you have already won the hard part. Now it is your turn to capture the value you created."
+  },
+  "tagline": "Heroes Have No Finish Line",
+  "segments": {
+    "eyebrow": "Who We Work With",
+    "items": [
+      {
+        "title": "Founders",
+        "description": "Persistent builders shaping the future through technology. You have done the hard part. We help you capture its full value."
+      },
+      {
+        "title": "Venture Capitalists",
+        "description": "Partners who fuel the next stage of growth and strategic outcomes. We align our process to your timeline and fiduciary responsibilities."
+      },
+      {
+        "title": "Investors",
+        "description": "Decision-makers aligning ambition, timing, and fiduciary outcomes. We deliver certainty and premium value in every process."
+      }
+    ]
+  },
+  "world_class": {
+    "eyebrow": "What Makes a Company World-Class",
+    "headline": "The Five Characteristics We Look For",
+    "items": [
+      {
+        "title": "Technology at the Core",
+        "description": "Technology is the product advantage you deliver across sectors."
+      },
+      {
+        "title": "Meaningful Scale",
+        "description": "Eight to nine figures of revenue with outcomes that can reshape the next chapter."
+      },
+      {
+        "title": "High-Velocity Growth",
+        "description": "Double to triple digit momentum where timing and process materially change value."
+      },
+      {
+        "title": "Strong Contribution Margin",
+        "description": "Unit economics prove each new layer of growth adds real value."
+      },
+      {
+        "title": "Builder Mindset",
+        "description": "Ambition with discipline, aligned around a clear definition of success."
+      }
+    ]
+  },
+  "what_you_get": {
+    "eyebrow": "What You Get",
+    "headline": "What You Get When You Work With Us",
+    "items": [
+      {
+        "title": "Advising",
+        "description": "Strategic guidance from seasoned partners who have been both operators and investors — offering perspective, insight, and hands-on support at every stage of your journey."
+      },
+      {
+        "title": "Network",
+        "description": "30+ years of senior relationships with decision-makers at the world's most consequential technology companies, PE firms, and institutional investors."
+      },
+      {
+        "title": "Support",
+        "description": "A full, dedicated team that treats your transaction as their own — from narrative development through due diligence to final close."
+      },
+      {
+        "title": "Understanding",
+        "description": "We have been founders, operators, and investors. We understand what you have built, what it cost, and what it is worth."
+      }
+    ]
+  },
+  "cta_banner": {
+    "headline": "Ready to Capture What You've Built?",
+    "subtext": "Let's have a confidential conversation about your goals.",
+    "cta": { "label": "Let's Connect", "href": "/contact" }
+  }
+}

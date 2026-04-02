@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "eyebrow": "Our Team",
+    "headline": "We Don't Succeed Unless You Succeed",
+    "subtext": "Our team is your team. You get a full, dedicated team led by senior partners — from first conversation to close."
+  },
+  "senior_partners": [
+    {
+      "id": "storm-duncan",
+      "name": "Storm Duncan",
+      "title": "Founder & Managing Partner",
+      "bio": "Ranked one of the top 5 Tech M&A bankers of all time (VentureBeat), one of the 'top 50 M&A Dealmakers in the World' (Atlas M&A Awards), and winner of the 2024 M&A Leadership Award. Storm has 30+ years advising on iconic technology transactions including Google/YouTube, Google/DoubleClick, Tencent/Universal Music Group, Microsoft, Apple/Drive.ai, Tinder/Match, Oracle/Sun/MySQL/RightNow, Uber/Careem, Lyft, and AMD/NexGen. He is a guest lecturer at Harvard Law School and Stanford University, and co-taught and co-authored an M&A course at Stanford Law School.",
+      "education": "B.A. Political Science and American Studies, Yale University; MBA Finance (With Distinction), University of Michigan",
+      "photo": "/images/team/storm-duncan.jpg"
+    },
+    {
+      "id": "kevin-finn",
+      "name": "Kevin Finn",
+      "title": "Senior Partner, Software",
+      "bio": "Kevin leads Ignatious's software sector practice, bringing deep expertise in enterprise SaaS, vertical software, and tech-enabled services M&A. He has advised on dozens of transactions across growth and mature software businesses.",
+      "photo": "/images/team/kevin-finn.jpg"
+    },
+    {
+      "id": "chris-hayes",
+      "name": "Chris Hayes",
+      "title": "Senior Partner, Mobility",
+      "bio": "Chris leads Ignatious's mobility and transportation technology practice, advising on transactions across fleet management, autonomy, ADAS, telematics, and logistics technology.",
+      "photo": "/images/team/chris-hayes.jpg"
+    },
+    {
+      "id": "joachim-over",
+      "name": "Joachim Over",
+      "title": "Senior Partner, Internet",
+      "bio": "Joachim leads Ignatious's internet and consumer technology practice, with extensive experience advising digital platforms, marketplace businesses, and consumer applications on both buy-side and sell-side mandates.",
+      "photo": "/images/team/joachim-over.jpg"
+    },
+    {
+      "id": "ben-lee",
+      "name": "Ben Lee",
+      "title": "Senior Partner",
+      "bio": "Ben brings broad technology M&A and private capital advisory experience across sectors, with a focus on cross-border transactions and growth equity mandates.",
+      "photo": "/images/team/ben-lee.jpg"
+    }
+  ],
+  "junior_partners": [
+    "Sebastian Castilla",
+    "Dan Dima-ala",
+    "Hugo Faro",
+    "Ricardo Lozano",
+    "Slyman Moustafa",
+    "Joao Pismel",
+    "Seth Rinkevich",
+    "Carlis Robinson"
+  ],
+  "cta_banner": {
+    "headline": "Work With Our Team",
+    "subtext": "Every engagement starts with a confidential conversation. No obligation.",
+    "cta": { "label": "Let's Connect", "href": "/contact" }
+  }
+}

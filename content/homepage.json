@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "headline_line1": "Your journey to being",
+    "headline_line2": "Ignatious",
+    "subtext": "Delivering Extraordinary M&A & Private Capital Raise Outcomes for World Changing Companies, Founders and Their Investors.",
+    "subtext_emphasis": "...And We Do It Better Than Anyone Else",
+    "cta_primary": { "label": "Let's Connect", "href": "/contact" },
+    "cta_secondary": { "label": "Our Capabilities", "href": "/services" }
+  },
+  "stats": [
+    { "value": "30+", "label": "Years Advising Iconic Tech Transactions" },
+    { "value": "15+", "label": "Years of Firm Experience" },
+    { "value": "200+", "label": "Projects Completed" }
+  ],
+  "who_we_serve": {
+    "eyebrow": "Who We Work With",
+    "headline": "For Founders, VCs, and Investors Who Are Ready to Capture the Value They Created",
+    "segments": [
+      {
+        "title": "Founders",
+        "description": "Persistent builders shaping the future through technology. You earned your first hire, your first customer, and your first investor — and built something that now matters."
+      },
+      {
+        "title": "Venture Capitalists",
+        "description": "Partners who fuel the next stage of growth and strategic outcomes. We align our process to your timeline and fiduciary responsibilities."
+      },
+      {
+        "title": "Investors",
+        "description": "Decision-makers aligning ambition, timing, and fiduciary outcomes. We deliver certainty and value in every process we run."
+      }
+    ]
+  },
+  "capabilities_preview": {
+    "eyebrow": "What We Do",
+    "headline": "We Have Advised On Iconic Technology M&A Transactions For More Than 30 Years",
+    "services": [
+      {
+        "title": "M&A Advisory",
+        "description": "Buy-side and sell-side M&A advisory for world-changing technology companies. We run disciplined, outcome-driven processes across AI, SaaS, HealthTech, and more.",
+        "href": "/services#ma"
+      },
+      {
+        "title": "Private Capital Advisory",
+        "description": "Strategic capital raising across venture, growth equity, and debt. We align capital structure to your long-term ambition and connect you to the right investors.",
+        "href": "/services#capital"
+      }
+    ]
+  },
+  "principles": {
+    "eyebrow": "Our Methodology",
+    "headline": "For You, We Are Believers Who Bend the Future",
+    "items": [
+      { "title": "Earned Trust", "description": "We build relationships before we run processes. Trust is the foundation of every outcome we deliver." },
+      { "title": "Strategic Positioning", "description": "We craft the narrative that positions your company for maximum value in the eyes of the right acquirers." },
+      { "title": "Engineered Process", "description": "Our process is disciplined, repeatable, and designed to create competitive tension without sacrificing certainty." },
+      { "title": "Privileged Access", "description": "30+ years of senior relationships with the decision-makers at the world's most consequential technology companies." },
+      { "title": "Relentless Execution", "description": "We do not let deals die. Our partners are in the room — from first call to final close — fighting for your outcome." },
+      { "title": "Full Alignment", "description": "We succeed only when you succeed. Our incentives are designed to align completely with yours." }
+    ]
+  },
+  "cta_banner": {
+    "headline": "Ready to Become an Icon?",
+    "subtext": "If you are a founder, CEO, VC, or corporate acquirer, let's talk. Every conversation is confidential.",
+    "cta": { "label": "Let's Connect", "href": "/contact" }
+  }
+}

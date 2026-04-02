@@ -1,0 +1,140 @@
+{
+  "hero": {
+    "eyebrow": "Selected Transactions",
+    "headline": "A Track Record Built on Iconic Outcomes",
+    "subtext": "We have advised on some of the most consequential technology transactions of the past three decades. A selection of completed mandates is shown below — many are confidential at client request."
+  },
+  "transactions": [
+    {
+      "id": "plushcare",
+      "company": "PlushCare",
+      "acquirer": "Accolade",
+      "type": "Strategic Sale",
+      "tagline": "Virtual Care, Real Value, Seamless Transition",
+      "description": "PlushCare's virtual care, now integrated with Accolade, is transforming how millions access healthcare — combining digital convenience with holistic support.",
+      "value": "Up to $450M",
+      "sector": "HealthTech",
+      "outcomes_seller": [
+        "Premium exit valued up to $450M",
+        "Team continuity and product vision maintained within Accolade",
+        "Access to Accolade's 9M+ members and employer partnerships",
+        "New career and growth opportunities for the team"
+      ],
+      "outcomes_investors": [
+        "Strong returns via cash, stock, and earnouts",
+        "Smooth, certain deal with strategic acquirer",
+        "Enhanced reputation as PlushCare scales nationwide"
+      ]
+    },
+    {
+      "id": "gobble",
+      "company": "Gobble",
+      "acquirer": "Intelligent Foods",
+      "type": "Strategic Sale",
+      "tagline": "From Startup Kitchen to Industry Table",
+      "description": "Gobble's 15-minute meal kits, now powered by Intelligent Foods' $1.5B+ production capacity, set a new standard for D2C meal solutions.",
+      "value": "Nine-figure, all-cash",
+      "sector": "Consumer Technology",
+      "outcomes_seller": [
+        "Nine-figure, all-cash exit",
+        "Founder and key leaders retained in senior roles",
+        "Gobble and Sunbasket brands remain distinct",
+        "Expanded reach to 40M+ households"
+      ],
+      "outcomes_investors": [
+        "Strong liquidity in competitive sector",
+        "Smooth, certain transaction with strategic acquirer",
+        "Enhanced reputation as Gobble's innovation scales"
+      ]
+    },
+    {
+      "id": "bentley-blyncsy",
+      "company": "Blyncsy",
+      "acquirer": "Bentley Systems",
+      "type": "Strategic Acquisition",
+      "tagline": "AI Innovation Meets Global Scale",
+      "description": "Blyncsy's AI, now integrated with Bentley's iTwin ecosystem, is transforming how infrastructure owners monitor and maintain roads.",
+      "value": "Undisclosed",
+      "sector": "AI / Infrastructure Tech",
+      "outcomes_seller": [
+        "Premium exit validating AI innovation",
+        "Team continuity and product vision preserved",
+        "Access to Bentley's global reach and iTwin platform"
+      ],
+      "outcomes_investors": [
+        "Strong returns in competitive AI market",
+        "Seamless transaction with proven, strategic acquirer",
+        "Enhanced reputation as Blyncsy's technology scales worldwide"
+      ]
+    },
+    {
+      "id": "netsuke",
+      "company": "Netsuke",
+      "acquirer": "Undisclosed Strategic",
+      "type": "Strategic Sale",
+      "tagline": "Double-Digit Revenue Multiple Strategic Sale",
+      "description": "Vertical software platform with embedded payments for high-volume hospitality venues. Ignatious unlocked Netsuke's growth inflection point through a premium strategic exit.",
+      "value": "Double-digit revenue multiple",
+      "sector": "Vertical SaaS / Fintech",
+      "outcomes_seller": [
+        "Unlocks growth inflection point",
+        "Provides additional go-to-market scaling resources",
+        "Enables rapid scale-up through organic and inorganic growth"
+      ],
+      "outcomes_investors": []
+    },
+    {
+      "id": "viaduct",
+      "company": "Viaduct",
+      "acquirer": "Undisclosed Strategic",
+      "type": "Strategic Sale",
+      "tagline": "Predictive Maintenance AI at Automotive Scale",
+      "description": "Predictive maintenance AI software platform for automotive OEMs and fleets. The acquisition established an AI-driven software business unit for the acquirer.",
+      "value": "Undisclosed",
+      "sector": "AI / Mobility Tech",
+      "outcomes_seller": [
+        "Establishes AI-driven software business unit",
+        "Accelerates global rollout of predictive maintenance capabilities",
+        "Creates upsell and cross-sell opportunities for next-gen mobility"
+      ],
+      "outcomes_investors": []
+    },
+    {
+      "id": "destiny",
+      "company": "Destiny",
+      "acquirer": "Undisclosed Private Equity",
+      "type": "Private Equity Growth Buyout",
+      "tagline": "eCommerce Enablement at Scale",
+      "description": "eCommerce enablement software platform. The transaction freed up capital for Destiny's core supply chain business while establishing a standalone commerce-as-a-service offering.",
+      "value": "Undisclosed",
+      "sector": "eCommerce / SaaS",
+      "outcomes_seller": [
+        "Frees up capital for core supply chain business",
+        "Establishes standalone partner for commerce-as-a-service offering",
+        "Streamlines decision making and profitability"
+      ],
+      "outcomes_investors": []
+    }
+  ],
+  "historical_highlight": {
+    "eyebrow": "30+ Years of Iconic Transactions",
+    "headline": "We Have Been in the Room for the Deals That Shaped the Technology Industry",
+    "transactions": [
+      "Google / YouTube",
+      "Google / DoubleClick",
+      "Tencent / Universal Music Group",
+      "Apple / Drive.ai",
+      "Tinder / Match",
+      "Oracle / Sun / MySQL / RightNow",
+      "Uber / Careem",
+      "Lyft",
+      "AMD / NexGen",
+      "AOL / DARPANET"
+    ]
+  },
+  "cta_banner": {
+    "headline": "Discuss Your Transaction",
+    "subtext": "All conversations are strictly confidential. We are happy to sign an NDA at first contact.",
+    "cta": { "label": "Let's Connect", "href": "/contact" }
+  }
+}

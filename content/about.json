@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "eyebrow": "About Us",
+    "headline": "We believe everyone is one success away from being Iconic",
+    "subtext": "Ignatious exists to help world-changing technology companies capture the full value of what they've built — through extraordinary M&A and capital advisory."
+  },
+  "mission": {
+    "eyebrow": "Why We Exist",
+    "headline": "An Insatiable Pull to Do Something Significant",
+    "paragraphs": [
+      "At Ignatious, we have an insatiable pull to do something significant — to make the impossible, possible. We foresee a tech-enriched world where humanity lives in harmony, and we see our role as helping the companies building that world to reach their full potential.",
+      "We don't succeed unless you succeed. Our team is your team. You get a full, dedicated team led by senior partners who carefully select their mandates so every client receives senior attention from first conversation to close.",
+      "We are believers. When you walk in the door, we are already in your corner — helping you see around corners, build the right narrative, and execute flawlessly when it matters most."
+    ]
+  },
+  "principles": {
+    "eyebrow": "How We Work",
+    "headline": "What Sets Us Apart",
+    "items": [
+      {
+        "title": "Senior-Led, Always",
+        "description": "Your transaction is led by senior partners, from first conversation to close. No handoffs. No juniors running your deal."
+      },
+      {
+        "title": "Selective Mandates",
+        "description": "We take on a small number of engagements each year to protect quality and outcomes. If we take your mandate, we are fully committed."
+      },
+      {
+        "title": "Stay in Our Lane",
+        "description": "We focus on growth technology M&A and do what we say we do, with no category drift."
+      },
+      {
+        "title": "Value-Add Threshold",
+        "description": "We only take on deals where we are confident we can add substantially more value than we take."
+      },
+      {
+        "title": "100+ Years of Connectivity",
+        "description": "Collective senior experience with deep buyer relationships built over decades at the highest levels of the technology industry."
+      }
+    ]
+  },
+  "cta_banner": {
+    "headline": "Let's Build Something Iconic Together",
+    "subtext": "If you are ready to explore a transaction, we would love to hear from you.",
+    "cta": { "label": "Let's Connect", "href": "/contact" }
+  }
+}

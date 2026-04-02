@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "eyebrow": "Capabilities",
+    "headline": "Extraordinary Outcomes.\nAt Every Stage.",
+    "subtext": "We deliver senior-led M&A and private capital advisory for world-changing technology companies."
+  },
+  "services": [
+    {
+      "id": "ma",
+      "title": "M&A Advisory",
+      "tagline": "Maximize Value. Maximize Certainty. Minimize Risk.",
+      "description": "An M&A strategy may focus on building resilience defensively or accelerating business model transformation offensively — especially in sectors rapidly reshaped by AI and emerging technologies. We run disciplined, outcome-driven processes across every stage.",
+      "outcomes": [
+        { "label": "Maximize Value", "description": "We create competitive tension and strategic positioning to drive premium outcomes." },
+        { "label": "Maximize Certainty", "description": "Our process engineering ensures deals close — not just launch." },
+        { "label": "Minimize Risk", "description": "Senior attention at every stage means nothing falls through the cracks." },
+        { "label": "Minimize Disruption", "description": "We run confidential, contained processes that protect your business while it's in play." },
+        { "label": "Minimize Time", "description": "Our privileged access and disciplined execution compress timelines without sacrificing value." }
+      ]
+    },
+    {
+      "id": "capital",
+      "title": "Private Capital Advisory",
+      "tagline": "Strategic Funding to Fuel Innovation and Drive Long-Term Entrepreneurial Success",
+      "description": "Developing and maintaining the right private capital strategy is essential for companies seeking to grow and innovate. This process requires a deep understanding of market alternatives, a wide network, and a strategic plan to attract and align with top-tier investors.",
+      "pillars": [
+        { "title": "Capital Raising", "description": "Connecting growth-stage technology companies with the right institutional, strategic, and private capital partners." },
+        { "title": "Capital Structure Optimization", "description": "Ensuring your capital structure supports your growth ambitions and maximises long-term shareholder value." },
+        { "title": "Shareholder Liquidity", "description": "Creating liquidity options for founders and early investors without compromising company trajectory." }
+      ],
+      "funding_sources": ["Venture Capital", "Private Equity", "Institutional Investors", "Strategic Corporate Investors", "Family Offices", "Debt Financing", "Angel Investors"],
+      "funding_stages": ["Seed Stage", "Early Stage", "Growth Stage", "Expansion Stage"]
+    }
+  ],
+  "sectors": {
+    "eyebrow": "Sector Coverage",
+    "headline": "Deep Expertise Across the Technology Landscape",
+    "items": [
+      {
+        "title": "AI",
+        "description": "Our AI practice spans the technology enabling and applying artificial intelligence across industries — from foundation models, training infrastructure, and AI tooling to intelligent applications."
+      },
+      {
+        "title": "AdTech & MarTech",
+        "description": "Our AdTech and MarTech practice spans the full digital marketing ecosystem — from performance advertising and data-driven media to customer engagement and analytics."
+      },
+      {
+        "title": "Consumer Technology",
+        "description": "Our consumer technology practice focuses on digital platforms and experiences transforming how people live, shop, and connect — spanning marketplaces, commerce, and creator ecosystems."
+      },
+      {
+        "title": "HealthTech",
+        "description": "Our healthtech practice spans the digital health ecosystem — from electronic health records, telehealth, and care management platforms to medical devices."
+      },
+      {
+        "title": "Industrial Tech",
+        "description": "Our industrial tech practice spans the digital backbone of production — industrial software, IIoT/edge, machine vision, motion control, automation, and robotics."
+      },
+      {
+        "title": "Mobility & Logistics Tech",
+        "description": "Our mobility practice covers the software and networks that move people and goods — fleet and route optimization, telematics, mapping, autonomy, and ADAS."
+      },
+      {
+        "title": "Tech Services",
+        "description": "Our tech services practice covers companies enabling digital transformation and IT modernization — from systems integrators to managed service providers."
+      }
+    ]
+  },
+  "cta_banner": {
+    "headline": "Let's Discuss Your Situation",
+    "subtext": "If you are a founder, CEO, VC, or corporate acquirer looking for extraordinary outcomes, we want to hear from you.",
+    "cta": { "label": "Let's Connect", "href": "/contact" }
+  }
+}
