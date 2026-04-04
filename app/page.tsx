@@ -8,7 +8,7 @@ export default function HomePage() {
       {/* ── Hero ── */}
       <section className="hero-gradient min-h-[85vh] flex items-end pb-20 md:pb-28">
         <div className="container-site">
-          <div className="max-w-2xl">
+          <div className="max-w-4xl">
             <p className="text-sm font-semibold text-green uppercase tracking-widest mb-6">
               {c.hero.headline_line1}
             </p>
