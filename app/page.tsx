@@ -8,11 +8,11 @@ export default function HomePage() {
       {/* ── Hero ── */}
       <section className="hero-gradient min-h-[85vh] flex items-end pb-20 md:pb-28">
         <div className="container-site">
-          <div className="max-w-xl">
+          <div className="max-w-2xl">
             <p className="text-sm font-semibold text-green uppercase tracking-widest mb-6">
               {c.hero.headline_line1}
             </p>
-            <h1 className="text-4xl md:text-6xl font-black text-white leading-tight mb-6">
+            <h1 className="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
               {c.hero.subtext}
             </h1>
             <p className="text-base font-medium text-white/50 mb-10">
