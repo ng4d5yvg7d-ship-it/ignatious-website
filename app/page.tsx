@@ -12,7 +12,7 @@ export default function HomePage() {
             <p className="text-sm font-semibold text-green uppercase tracking-widest mb-6">
               {c.hero.headline_line1}
             </p>
-            <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
+            <h1 className="text-3xl md:text-5xl font-black text-white leading-tight mb-6">
               {c.hero.subtext}
             </h1>
             <p className="text-xl font-semibold text-white/60 mb-10">
