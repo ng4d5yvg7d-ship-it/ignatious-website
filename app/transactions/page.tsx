@@ -2,86 +2,75 @@ import transactionsData from "@/content/transactions.json";
 
 const c = transactionsData;
 
-export const metadata = {
-  title: "Selected Transactions | Ignatious",
-};
+export const metadata = { title: "Selected Transactions | Ignatious" };
 
 export default function TransactionsPage() {
   return (
-    <div>
+    <div className="bg-black">
       {/* Hero */}
-      <section className="bg-white pt-20 pb-24 md:pt-28 md:pb-32">
+      <section className="hero-gradient py-24 md:py-32">
         <div className="container-site max-w-4xl">
           <p className="text-xs font-semibold tracking-widest uppercase text-green mb-5">
             {c.hero.eyebrow}
           </p>
-          <h1 className="text-4xl md:text-6xl font-black text-navy leading-tight mb-6">
+          <h1 className="text-4xl md:text-6xl font-black text-white leading-tight mb-6">
             {c.hero.headline}
           </h1>
-          <p className="text-xl text-gray-500 leading-relaxed max-w-2xl">
+          <p className="text-lg text-white/50 leading-relaxed max-w-2xl">
             {c.hero.subtext}
           </p>
         </div>
       </section>
 
-      {/* Transactions */}
-      <section className="py-20 md:py-24 bg-gray-50">
+      {/* Case Studies */}
+      <section className="py-20 border-t border-white/[0.07]">
         <div className="container-site">
-          <div className="grid md:grid-cols-2 gap-6">
+          <p className="text-xs font-semibold tracking-widest uppercase text-green mb-8">
+            Case Studies
+          </p>
+          <div className="grid md:grid-cols-2 gap-4">
             {c.transactions.map((txn) => (
-              <div
-                key={txn.id}
-                className="bg-white border border-gray-200 rounded-xl overflow-hidden"
-              >
+              <div key={txn.id} className="bg-[#111] border border-white/[0.08] rounded-2xl overflow-hidden flex flex-col">
                 {/* Card header */}
-                <div className="bg-navy px-7 py-5 flex items-center justify-between">
-                  <div>
-                    <p className="text-xs font-semibold tracking-widest uppercase text-green mb-1">
-                      {txn.type}
-                    </p>
-                    <h2 className="text-xl font-black text-white">
-                      {txn.company}
-                    </h2>
-                    {txn.acquirer !== "Undisclosed Strategic" && txn.acquirer !== "Undisclosed Private Equity" && (
-                      <p className="text-white/50 text-sm">Acquired by {txn.acquirer}</p>
-                    )}
-                  </div>
-                  <div className="text-right">
-                    <span className="text-xs font-bold text-white/40 uppercase tracking-wide">
-                      {txn.sector}
-                    </span>
+                <div className="px-7 pt-7 pb-5 border-b border-white/[0.07]">
+                  <p className="text-xs font-semibold tracking-widest uppercase text-green mb-2">
+                    {txn.type}
+                  </p>
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <h2 className="text-xl font-black text-white">{txn.company}</h2>
+                      {txn.acquirer !== "Undisclosed Strategic" && txn.acquirer !== "Undisclosed Private Equity" && (
+                        <p className="text-white/40 text-sm mt-1">Acquired by {txn.acquirer}</p>
+                      )}
+                    </div>
                     {txn.value !== "Undisclosed" && (
-                      <p className="text-green font-bold text-sm mt-1">{txn.value}</p>
+                      <span className="text-green font-bold text-sm shrink-0">{txn.value}</span>
                     )}
                   </div>
                 </div>
 
                 {/* Card body */}
-                <div className="px-7 py-6">
-                  <p className="text-sm font-semibold text-navy mb-3 italic">
-                    &ldquo;{txn.tagline}&rdquo;
-                  </p>
-                  <p className="text-gray-500 text-sm leading-relaxed mb-5">
-                    {txn.description}
-                  </p>
+                <div className="px-7 py-6 flex flex-col gap-4 flex-1">
+                  <p className="text-white/70 text-sm italic">&ldquo;{txn.tagline}&rdquo;</p>
+                  <p className="text-white/40 text-sm leading-relaxed">{txn.description}</p>
                   {txn.outcomes_seller.length > 0 && (
-                    <div>
-                      <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-3">
+                    <div className="mt-auto pt-4 border-t border-white/[0.07]">
+                      <p className="text-xs font-semibold tracking-widest uppercase text-white/30 mb-3">
                         Outcomes
                       </p>
                       <ul className="space-y-1.5">
-                        {txn.outcomes_seller.map((outcome) => (
-                          <li
-                            key={outcome}
-                            className="flex items-start gap-2 text-sm text-gray-600"
-                          >
-                            <span className="text-green font-bold mt-0.5">✓</span>
+                        {txn.outcomes_seller.slice(0, 3).map((outcome) => (
+                          <li key={outcome} className="flex items-start gap-2 text-sm text-white/50">
+                            <span className="text-green font-bold mt-0.5 shrink-0">✓</span>
                             {outcome}
                           </li>
                         ))}
                       </ul>
                     </div>
                   )}
+                  <div className="flex items-center justify-between mt-auto pt-2">
+                    <span className="text-xs text-white/25">{txn.sector}</span>
+                  </div>
                 </div>
               </div>
             ))}
@@ -90,20 +79,17 @@ export default function TransactionsPage() {
       </section>
 
       {/* Historical highlight */}
-      <section className="py-20 bg-navy">
+      <section className="py-20 border-t border-white/[0.07]">
         <div className="container-site">
           <p className="text-xs font-semibold tracking-widest uppercase text-green mb-3">
             {c.historical_highlight.eyebrow}
           </p>
-          <h2 className="text-3xl font-black text-white mb-10 leading-tight max-w-2xl">
+          <h2 className="text-2xl md:text-3xl font-black text-white mb-10 leading-tight max-w-2xl">
             {c.historical_highlight.headline}
           </h2>
           <div className="flex flex-wrap gap-3">
             {c.historical_highlight.transactions.map((txn) => (
-              <span
-                key={txn}
-                className="bg-white/5 border border-white/10 text-white/70 text-sm font-medium px-5 py-2.5 rounded-full"
-              >
+              <span key={txn} className="bg-[#111] border border-white/[0.08] text-white/50 text-sm font-medium px-5 py-2.5 rounded-full">
                 {txn}
               </span>
             ))}
@@ -112,15 +98,15 @@ export default function TransactionsPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-green">
-        <div className="container-site text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
+      <section className="py-20 border-t border-white/[0.07]">
+        <div className="container-site flex flex-col items-center text-center gap-6">
+          <h2 className="text-3xl md:text-4xl font-black text-white max-w-xl leading-tight">
             {c.cta_banner.headline}
           </h2>
-          <p className="text-white/80 mb-8 max-w-md mx-auto">{c.cta_banner.subtext}</p>
+          <p className="text-white/50 max-w-sm">{c.cta_banner.subtext}</p>
           <a
             href={c.cta_banner.cta.href}
-            className="inline-block bg-white text-green text-sm font-bold px-8 py-3.5 rounded-full hover:bg-gray-100 transition-colors"
+            className="inline-block border border-white/30 text-white text-sm font-semibold px-8 py-3.5 rounded-full hover:bg-white hover:text-black transition-colors"
           >
             {c.cta_banner.cta.label}
           </a>

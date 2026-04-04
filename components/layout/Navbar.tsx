@@ -18,17 +18,11 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="bg-navy sticky top-0 z-50">
+    <header className="bg-black border-b border-white/[0.07] sticky top-0 z-50">
       <div className="container-site flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" aria-label="Ignatious home">
-          <Image
-            src="/images/logo.svg"
-            alt="Ignatious"
-            width={108}
-            height={22}
-            priority
-          />
+          <Image src="/images/logo.svg" alt="Ignatious" width={108} height={22} priority />
         </Link>
 
         {/* Desktop nav */}
@@ -53,9 +47,9 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link
             href="/contact"
-            className="hidden md:inline-block bg-green text-navy text-sm font-bold px-5 py-2 rounded-full hover:bg-green-dark hover:text-white transition-colors"
+            className="hidden md:inline-block bg-white text-black text-sm font-semibold px-5 py-2 rounded-full hover:bg-white/90 transition-colors"
           >
-            Let&apos;s Connect
+            Contact
           </Link>
           <button
             className="md:hidden text-white/70 hover:text-white p-2"
@@ -77,7 +71,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-navy border-t border-white/10">
+        <div className="md:hidden bg-black border-t border-white/[0.07]">
           <nav className="container-site py-5 flex flex-col gap-4">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
@@ -97,9 +91,9 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="inline-block bg-green text-navy text-sm font-bold px-5 py-2.5 rounded-full text-center hover:bg-green-dark hover:text-white transition-colors mt-2"
+              className="inline-block bg-white text-black text-sm font-semibold px-5 py-2.5 rounded-full text-center hover:bg-white/90 transition-colors mt-2"
             >
-              Let&apos;s Connect
+              Contact
             </Link>
           </nav>
         </div>
