@@ -1,3 +1,4 @@
+import Image from "next/image";
 import teamData from "@/content/team.json";
 
 const c = teamData;
@@ -32,11 +33,23 @@ export default function TeamPage() {
             {c.senior_partners.map((member) => (
               <div key={member.id} className="bg-[#111] border border-white/[0.08] rounded-2xl p-8 grid md:grid-cols-4 gap-8">
                 <div className="flex flex-col gap-4">
-                  <div className="w-16 h-16 rounded-2xl bg-green/10 border border-green/20 flex items-center justify-center">
-                    <span className="text-green text-xl font-black">
-                      {member.name.split(" ").map((n) => n[0]).join("")}
-                    </span>
-                  </div>
+                  {"photo" in member && member.photo ? (
+                    <div className="w-16 h-16 rounded-2xl overflow-hidden">
+                      <Image
+                        src={(member as { photo: string }).photo}
+                        alt={member.name}
+                        width={64}
+                        height={64}
+                        className="w-full h-full object-cover object-top"
+                      />
+                    </div>
+                  ) : (
+                    <div className="w-16 h-16 rounded-2xl bg-green/10 border border-green/20 flex items-center justify-center">
+                      <span className="text-green text-xl font-black">
+                        {member.name.split(" ").map((n) => n[0]).join("")}
+                      </span>
+                    </div>
+                  )}
                   <div>
                     <h2 className="text-lg font-black text-white">{member.name}</h2>
                     <p className="text-green text-xs font-semibold mt-1">{member.title}</p>
